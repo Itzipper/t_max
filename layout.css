@@ -1,0 +1,39 @@
+#border{
+   /* width: 200px;
+    heigth: 60px;
+    background-color:aqua;
+    border: 2px;
+    border-color:red;
+    border-style: dashed; 
+    border-left: 2px solid green;
+    border-right: 2px solid red;
+    border-top: 2px dotted black;
+    border-bottom: 2px dashed lime; */
+    border: 4px;
+    border: none;
+
+}
+
+#background{
+    color: aliceblue;
+    height: 1200px;
+    width: 1200px;
+    border: 2px solid brown;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url("https://thumbs.dreamstime.com/z/fireworks-panoramic-view-28327287.jpg");
+    height: 100px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.height{
+    background-color: brown;
+    height: 200px;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}

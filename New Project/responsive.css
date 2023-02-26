@@ -1,0 +1,85 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    overflow: hidden;
+    scroll-behavior:smooth;
+}
+.lukman{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(25, 113, 35);
+    height: 65px;
+    z-index: 100;
+}
+
+.lukman .Container{
+    display: flex;
+}
+.lukman .Container a{
+    flex: 1;
+    text-align:center;
+    font-size: 22px;
+    line-height:65px;
+    color: black;
+}
+
+.lukman .Container a:nth-child(1){
+    background: red;
+}
+.lukman .Container a:nth-child(2){
+    background: lime;
+}
+.lukman .Container a:nth-child(3){
+    background: blue;
+}
+.lukman .Container a:nth-child(4){
+    background: goldenrod;
+}
+.lukman .Container a:nth-child(5){
+    background: lightcoral;
+}
+
+.divbar {
+    display: flex;
+    width: 500%;
+    height: 100vh;
+}
+
+.divbar .main-selector{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vw;
+
+}
+
+.divbar .main-selector:nth-child(1){
+    background: red;
+}
+.divbar .main-selector:nth-child(2){
+    background: lime;
+}
+.divbar .main-selector:nth-child(3){
+    background: blue;
+}
+.divbar .main-selector:nth-child(4){
+    background: goldenrod;
+}
+.divbar .main-selector:nth-child(5){
+    background: lightcoral;
+}
+@media only screen and (max-width:2000px){
+    .lukman{
+        display: block;
+    }
+}
+    

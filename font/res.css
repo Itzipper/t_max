@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    background-color: blue;
+    width: 1000px;
+    height: 100vh;
+}
+.child{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    font-size: 30px;
+    text-align: center;
+}
